@@ -5,9 +5,7 @@ var app = express();
 var GitUser = require('./Schemas/GitUsers');
 var Employer = require('./Schemas/Employers');
 
-//force redeploy
-var temp = 1;
-var test = temp + 0;
+
 
 //var mongoURI = process.env.MONGO || 'mongodb://localhost/gitInsights';
 var mongoURI = MONGOLAB_URI || 'mongodb://localhost/gitInsights';
