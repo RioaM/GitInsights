@@ -43,7 +43,7 @@ gulp.task('watch', function () {
 
 gulp.task('serve', function () {
   nodemon({
-    script: 'index.js',
+    script: 'server.js',
     ext: 'html js',
     ignore: ['node_modules']
   })
