@@ -13,7 +13,9 @@ function Auth ($q) {
   //url refers to Firebase database.
   //for more information about Firebase please refer to http://www.firebase.com
   //var ref = new Firebase("https://boiling-torch-2275.firebaseio.com");
-  var ref = new Firebase("https://git-insights.firebaseio.com/");
+  //var ref = new Firebase("https://git-insights.firebaseio.com/");
+  var ref = new Firebase("https://glowing-inferno-6399.firebaseio.com");
+
 
   var github;
 
