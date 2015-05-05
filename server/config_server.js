@@ -8,7 +8,7 @@ var Employer = require('./Schemas/Employers');
 
 
 //var mongoURI = process.env.MONGO || 'mongodb://localhost/gitInsights';
-var mongoURI = MONGOLAB_URI || 'mongodb://localhost/gitInsights';
+var mongoURI = process.env.MONGOLAB_URI || 'mongodb://localhost/gitInsights';
 mongoose.connect(mongoURI);
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
